@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91790BF2158E594300C1ED79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91790BF1158E594300C1ED79 /* Foundation.framework */; };
+		91790BF5158E594300C1ED79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91790BF4158E594300C1ED79 /* main.m */; };
+		91790BF9158E594300C1ED79 /* OlaMundo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91790BF8158E594300C1ED79 /* OlaMundo.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91790BEB158E594300C1ED79 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				91790BF9158E594300C1ED79 /* OlaMundo.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91790BED158E594300C1ED79 /* OlaMundo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OlaMundo; sourceTree = BUILT_PRODUCTS_DIR; };
+		91790BF1158E594300C1ED79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91790BF4158E594300C1ED79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91790BF7158E594300C1ED79 /* OlaMundo-Prefix.pch */ = {isa = PBXFileReference; path = "OlaMundo-Prefix.pch"; sourceTree = "<group>"; };
+		91790BF8158E594300C1ED79 /* OlaMundo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OlaMundo.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91790BEA158E594300C1ED79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91790BF2158E594300C1ED79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91790BE2158E594300C1ED79 = {
+			isa = PBXGroup;
+			children = (
+				91790BF3158E594300C1ED79 /* OlaMundo */,
+				91790BF0158E594300C1ED79 /* Frameworks */,
+				91790BEE158E594300C1ED79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91790BEE158E594300C1ED79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91790BED158E594300C1ED79 /* OlaMundo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91790BF0158E594300C1ED79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91790BF1158E594300C1ED79 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91790BF3158E594300C1ED79 /* OlaMundo */ = {
+			isa = PBXGroup;
+			children = (
+				91790BF4158E594300C1ED79 /* main.m */,
+				91790BF8158E594300C1ED79 /* OlaMundo.1 */,
+				91790BF6158E594300C1ED79 /* Supporting Files */,
+			);
+			path = OlaMundo;
+			sourceTree = "<group>";
+		};
+		91790BF6158E594300C1ED79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91790BF7158E594300C1ED79 /* OlaMundo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91790BEC158E594300C1ED79 /* OlaMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91790BFC158E594300C1ED79 /* Build configuration list for PBXNativeTarget "OlaMundo" */;
+			buildPhases = (
+				91790BE9158E594300C1ED79 /* Sources */,
+				91790BEA158E594300C1ED79 /* Frameworks */,
+				91790BEB158E594300C1ED79 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlaMundo;
+			productName = OlaMundo;
+			productReference = 91790BED158E594300C1ED79 /* OlaMundo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91790BE4158E594300C1ED79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 91790BE7158E594300C1ED79 /* Build configuration list for PBXProject "OlaMundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91790BE2158E594300C1ED79;
+			productRefGroup = 91790BEE158E594300C1ED79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91790BEC158E594300C1ED79 /* OlaMundo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91790BE9158E594300C1ED79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91790BF5158E594300C1ED79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91790BFA158E594300C1ED79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		91790BFB158E594300C1ED79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		91790BFD158E594300C1ED79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMundo/OlaMundo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91790BFE158E594300C1ED79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMundo/OlaMundo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91790BE7158E594300C1ED79 /* Build configuration list for PBXProject "OlaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91790BFA158E594300C1ED79 /* Debug */,
+				91790BFB158E594300C1ED79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91790BFC158E594300C1ED79 /* Build configuration list for PBXNativeTarget "OlaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91790BFD158E594300C1ED79 /* Debug */,
+				91790BFE158E594300C1ED79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91790BE4158E594300C1ED79 /* Project object */;
+}

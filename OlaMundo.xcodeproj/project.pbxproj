@@ -29,7 +29,7 @@
 		91790BED158E594300C1ED79 /* OlaMundo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OlaMundo; sourceTree = BUILT_PRODUCTS_DIR; };
 		91790BF1158E594300C1ED79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91790BF4158E594300C1ED79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		91790BF7158E594300C1ED79 /* OlaMundo-Prefix.pch */ = {isa = PBXFileReference; path = "OlaMundo-Prefix.pch"; sourceTree = "<group>"; };
+		91790BF7158E594300C1ED79 /* OlaMundo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OlaMundo-Prefix.pch"; sourceTree = "<group>"; };
 		91790BF8158E594300C1ED79 /* OlaMundo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OlaMundo.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

@@ -22,9 +22,12 @@ int main(int argc, const char * argv[])
         //printf(str);
         
         int valor = 2;
+        NSString *mundo =@"mundo";
         
         NSLog(@"oi agora vai um inteiro %i", valor);
         
+        
+        NSLog(@"olá %@", mundo);
         
         NSLog(@"Hello, World!");
         

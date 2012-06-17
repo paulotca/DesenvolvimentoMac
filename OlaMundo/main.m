@@ -10,11 +10,22 @@
 
 int main(int argc, const char * argv[])
 {
-
+//gestões de memoria.
     @autoreleasepool {
         
         // insert code here...
-        //asdsa
+        
+        //char *str = "hello, world!";
+        
+        //str[3] = 0;
+        
+        //printf(str);
+        
+        int valor = 2;
+        
+        NSLog(@"oi agora vai um inteiro %i", valor);
+        
+        
         NSLog(@"Hello, World!");
         
     }
